@@ -1,6 +1,6 @@
 # To Embody or Not: The Effect Of Embodiment On User Perception Of LLM-based Conversational Agents
 
-[Paper](https://arxiv.org/abs/2412.16526)
+[Paper](https://services.arxiv.org/html/submission/6507109/view)
 
 ![Embodied agent interface](images/interface_embodied.png)
 
@@ -15,5 +15,5 @@ This repository contains the code and instructions needed to replicate the study
 3. Download [LM Studio](https://lmstudio.ai/), and load Llama 3.1 8B Instruct in a Local Inference Server.
 4. Load the [Omniverse USD file](embodied_assets/audio2face.usd) in Audio2Face. Go to the "A2F Data Conversion" tab, click the option in "BlendShape Solver(s)", and click "DELETE SETUP". Then click "SET UP BLENDSHAPE SOLVE". Next, select the "StreamLivelink" object in the Stage window. Then, check "Activate" in the Property window.
 5. In a terminal, load a virtual Python environment with the appropriate libraries installed, and run the [provided script](scripts/MainScript_desert_voice.py).
-6. Open the [Unreal Engine project file](unreal_project) and load the "level_combined" level. Click the "+ Source" button in the Live Link tab, hover over the NVIDIA Omniverse LiveLink option, and click "OK". Press Alt+P.
+6. Open the Unreal Engine project file and load the "level_combined" level. Click the "+ Source" button in the Live Link tab, hover over the NVIDIA Omniverse LiveLink option, and click "OK". Press Alt+P.
 7. You may now chat with the agent in the terminal window.
