@@ -1,6 +1,6 @@
 # To Embody or Not: The Effect Of Embodiment On User Perception Of LLM-based Conversational Agents
 
-[Paper](https://services.arxiv.org/html/submission/6507109/view)
+[Paper](https://arxiv.org/abs/2506.02514)
 
 ![Embodied agent interface](images/interface_embodied.png)
 
@@ -17,3 +17,16 @@ This repository contains the code and instructions needed to replicate the study
 5. In a terminal, load a virtual Python environment with the appropriate libraries installed, and run the [provided script](scripts/MainScript_desert_voice.py).
 6. Open the Unreal Engine project file and load the "level_combined" level. Click the "+ Source" button in the Live Link tab, hover over the NVIDIA Omniverse LiveLink option, and click "OK". Press Alt+P.
 7. You may now chat with the agent in the terminal window.
+
+8. ## citation
+
+If you find this work interesting, please cite our paper: 
+
+   ```
+   @article{wang2025embodynoteffectembodiment,
+      title={To Embody or Not: The Effect Of Embodiment On User Perception Of LLM-based Conversational Agents}, 
+      author={Kyra Wang and Boon-Kiat Quek and Jessica Goh and Dorien Herremans},
+      year={2025},
+      title={arXiv: 2506.02514}
+}
+   ```
